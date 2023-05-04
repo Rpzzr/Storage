@@ -2,25 +2,25 @@ import os
 
 # Membuat direktori baru
 
-os.mkdir('data')
+os.mkdir('Download')
 
 # Menulis file
 
-with open('data/file.txt', 'w') as f:
+with open('Download/file.txt', 'w') as f:
 
     f.write('Ini adalah teks yang ditulis ke file')
 
 # Membaca file
 
-with open('data/file.txt', 'r') as f:
+with open('Download/file.txt', 'r') as f:
 
     print(f.read())
 
 # Menghapus file
 
-os.remove('data/file.txt')
+os.remove('Download/file.txt')
 
-# Menghapus direktori
+# Menghapuh direktori
 
-os.rmdir('data')
+os.rmdir('Download')
 
